@@ -1,0 +1,130 @@
+.img{
+    width: 30px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.hero-image {
+    width: auto;
+    max-height: 480px;
+    background-image: url("home-bg.jpg"); 
+    background-size: cover; 
+  }
+  .cont{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  span{
+    color: red;
+  }
+  .row{
+    padding: 0 20px 0 20px;
+  }
+  
+ h3{
+    text-align: center;
+    padding-top: 2rem;
+    color:gray
+ }
+ 
+ .p1{
+    width: 3rem;
+    height: 3rem;
+ }
+ .card-title {
+    text-align: center;
+ }
+ 
+
+ @media only screen and (max-device-width: 480px) {
+    .p11{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-image{
+        max-height: 600px;
+    }
+    .n1{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+    .img{
+      margin-left: 5px;
+    }
+
+}
+@media only screen and (min-device-width: 500px) {
+    .p11{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .badge{
+      margin-left: 20px;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 15px;
+    }
+    .d1{
+      display: flex;
+      justify-content: center;
+      margin-top:-50px;
+    }
+
+}
+i{
+  margin: 2px;
+  color:gold
+}
+.s1{
+  border-radius: 7px;
+}
+.badge{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+.r1{
+
+  border: 3px solid white;
+  margin-bottom: 10px;
+  padding:10px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 5px rgb(255, 255, 255);
+}
+
+h4{
+  text-align: center;
+}
+.a1{
+  border: 3px solid white;
+  padding:10px;
+  border-radius: 10px;
+}
+.b1{
+  color: red;
+}
+.c1{
+  width:100px;
+  height: 100px;
+  border: 7px solid white;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.d1{
+  display: flex;
+  justify-content: center;
+  margin-top:-50px;
+}
+.address{
+  
+}
